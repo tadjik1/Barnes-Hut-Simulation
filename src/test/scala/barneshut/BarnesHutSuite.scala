@@ -12,10 +12,9 @@ import barneshut.conctrees.ConcBuffer
 
 @RunWith(classOf[JUnitRunner])
 class BarnesHutSuite extends FunSuite {
+  import FloatOps._
 
   // test cases for quad tree
-
-import FloatOps._
   test("Empty: center of mass should be the center of the cell") {
     val quad = Empty(51f, 46.3f, 5f)
     assert(quad.massX == 51f, s"${quad.massX} should be 51f")
@@ -138,4 +137,3 @@ object FloatOps {
         }
   }
 }
-
