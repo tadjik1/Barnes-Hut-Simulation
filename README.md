@@ -5,6 +5,14 @@
 Parallel [Barnes-Hut algorithm](https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation) for N-body simulation.
 Programming assignment for Week 4 ["Parallel programming"](https://www.coursera.org/learn/parprog1/home/welcome) course on coursera.org.
 
+![Barnes-Hut-Simulation](example.png)
+
+## Installation
+
+Clone this repository and run `sbt "run-main barneshut.BarnesHut"`
+
+## Description
+
 N-body simulation is a simulation of a system of N particles that interact with physical forces,
 such as gravity or electrostatic force. Given initial positions and velocities of all
 the particles (or bodies), the N-body simulation computes the new positions and velocities of
